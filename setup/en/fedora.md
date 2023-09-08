@@ -6,6 +6,14 @@ sudo dnf copr enable jc141/DwarFS && sudo dnf install fuse-overlayfs dwarfs wine
 ```
 <br>
 
+In case of Fedora Silverblue (for example, BazziteOS):
+
+```sh
+wget https://copr.fedorainfracloud.org/coprs/jc141/DwarFS/repo/fedora-38/jc141-DwarFS-fedora-38.repo && sudo mv "jc141-DwarFS-fedora-38.repo" "/etc/yum.repos.d/"
+sudo rpm-ostree install fuse-overlayfs dwarfs wine
+```
+<br>
+
 #### Graphics packages
 
 ```sh
